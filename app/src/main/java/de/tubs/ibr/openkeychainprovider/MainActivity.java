@@ -40,6 +40,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Testkommentar
+
        // SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
         String providerPackageName = settings.getString("openpgp_provider_list", "");
         mServiceConnection = new OpenPgpServiceConnection(
